@@ -1,0 +1,25 @@
+{
+  "name": "pokedex-crud",
+  "version": "1.0.0",
+  "description": "Projeto Acadêmico",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoXavier16/Pokedex-CRUD.git"
+  },
+  "author": "Eduardo Xavier do Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoXavier16/Pokedex-CRUD/issues"
+  },
+  "homepage": "https://github.com/EduardoXavier16/Pokedex-CRUD#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
