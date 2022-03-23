@@ -1,0 +1,43 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+body{
+    background-color: black;
+}
+
+div#card-container{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    background-color: #333333;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    box-shadow: 3px 7px 10px 1px rgb(167, 96, 149)
+    
+}
+
+div#card-container:hover{
+    background-color: rgb(167, 96, 149);
+}
+
+a{
+    text-decoration: none;
+}
+
+div.header-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

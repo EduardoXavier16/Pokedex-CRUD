@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="/CSS/detalhes.css" type="text/css">
 </head>
 <body>
     <main>
-        <% pokedex.forEach(element => { %>
-            <a href="/detalhes/<%= element.id %>">
+        <% pokemonAtual.forEach(element => { %>
                 <div id="card-container">
                     <div id="header-container">
                         <span class="card-id"> <%= element.id %> </span>
@@ -26,7 +25,6 @@
                     </div>
                     <div class="footer-card"> <%= element.type %> </div>
                 </div>
-            </a>
         <%}) %>
     </main>
 </body>
